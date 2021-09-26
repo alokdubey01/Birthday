@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+body {
+    background: #24d19d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  ::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 5px;
+    border-radius        : 5px;
+    background           : transparent;
+}
+  h1{
+      position: absolute;
+      top: 0;
+      font-family: 'Rock Salt', cursive;
+  }
+  p{
+      position: absolute;
+      top: 100px;
+      font-weight: 900;
+      margin-right: 0.5em;
+      font-size: 4rem;
+      background-image: linear-gradient( 89.4deg,  rgba(194,0,39,1) 0.8%, rgba(10,35,104,1) 99.4% );
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+  }
+  .birthday-card {
+      position: absolute;
+    margin-top: 1200px;
+    padding: 16px;
+    max-width: 400px;
+    background-color: white;
+    text-align: center;
+    box-shadow: 0 24px 40px -8px #1b9973;
+  }
+  .birthday-card img {
+    width: 100%;
+  }
+  .birthday-card h1{
+      font-size: 12px;
+      position: relative;
+      bottom: 0;
+  }
+  .birthday-card h3{
+    font-family: 'Rock Salt', cursive;
+  }
+  .birthday-cake {
+    position: relative; 
+    top:20px;
+  }
+  .holder {
+    position:absolute;
+    width:350px;
+    height:20px;
+    border-radius:100px;
+    background-color: #212F3C;
+    left:-140px;
+    top:10px;  
+  }
+  
+  .holder:before {
+    content:"";
+    position:absolute;
+    width:100px;
+    height:150px;
+    background-color: #CACFD2;
+    left:130px; 
+    top:20px;
+  }
+  
+  .holder:after {
+    content:"";
+    position:absolute;
+    background-color: #24d19d;
+    width: 100px;
+    height:135px;
+    border-radius:30px 30px 0 0;
+    left:65px;
+    top:20px;
+    box-shadow: 125px 0 #24d19d;
+  }
+  
+  .shadow {
+    position:absolute;
+    width:350px;
+    height:20px;
+    border-radius:50%;
+    top:170px;
+    left:-135px;
+    background-color: rgba(0,0,0,0.095);
+    z-index:1;
+  }
+  
+  .shadow:before {
+    content:"";
+    position: absolute;
+    background-color: #CACFD2;
+    width:150px;
+    height:20px;
+    border-radius:20px;
+    top:-10px;
+    left:96px;
+  }
+  .cake {
+    position:absolute;
+    overflow:hidden;
+    width:275px;
+    height:140px;
+    background-color: #FAD7A0;
+    top:-130px;
+    left:-101px;
+    border-radius:30px 30px 0 0;  
+  }
+  
+  .cake:before {
+    content:"";
+    background-color: #935116;
+    width:275px;
+    height:15px;
+    position:absolute;
+    top:75px;
+    box-shadow: 0 30px #935116;
+  }
+  
+  .cake:after {
+    content:"";
+    position: absolute;
+    background-color: #573612;
+    width:275px;
+    height:40px;
+    box-shadow:inset 0 10px rgba(0,0,0,0.07);
+  }
+  
+  .chocolate {
+    position:absolute; 
+    background-color: #573612;
+    width:25px;
+    height:45px;
+    top:25px;
+    left:0;
+    z-index:2;
+    border-radius:50px;
+    box-shadow: 25px 2px #FAD7A0, 50px -10px #573612, 75px -5px #FAD7A0, 100px 3px #573612, 125px 0 #FAD7A0, 150px -5px #573612, 175px 3px #FAD7A0, 200px -5px #573612, 225px -10px #FAD7A0, 250px 4px #573612;
+  }
+  .candle {
+    position:absolute; 
+    width: 15px;
+    height:70px;
+    background-color: white;
+    top:-200px;
+    left:30px;
+    box-shadow:inset 0 -10px 0 #E74C3C;
+  }
+  
+  .candle:before {
+    position:absolute;
+    width:15px;
+    height:15px;
+    background-color:#E74C3C;
+    content:"";
+    top:10px;
+    box-shadow: 0 25px #E74C3C;
+  }
+  
+  .candle:after {
+    content:"";
+    width:2px;
+    height:15px;
+    content:"";
+    position:absolute;
+    background-color:black;
+    top:-15px;
+    left:6px;
+  }
+  
+  .flame {
+    position:absolute;
+    background-color: #F4D03F;
+    opacity:0.9;
+    box-shadow:inset 0 -5px 5px #D35400, 5px -5px 20px #FBFFA3;
+    width:20px;
+    height:30px;
+    top:-240px;
+    border-radius:50%;
+    left:26.5px;
+    animation: flame 0.5s infinite;
+      
+  }
+  @keyframes flame {
+    from, to { transform: scale(1, 1); }
+    25% { transform: scale(0.9, 1.1); }
+    50% { transform: scale(1.1, 0.9); }
+    75% { transform: scale(0.95, 1.05); }
+  }
+    
+  .stra{
+      height: 1\2em;
+      width: 10x;
+      margin-top: -2em;
+  }
